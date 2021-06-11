@@ -70,6 +70,7 @@ function TradingCardContainer(){
       name = {tradingCard.name}
       skill = {tradingCard.skill}
       imgUrl = {tradingCard.imgUrl}
+      key={tradingCard.cardId}
       />
       );
   }
